@@ -246,3 +246,259 @@
     </script>
 </body>
 </html>
+
+
+*CSS variables section*/
+
+
+
+:root {
+    background-color: rgb(70, 79, 136);
+    
+}
+
+/*Extra Large screens - Extra large desktops*/
+.header{
+    
+
+}
+.heeder-large-screen{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    color:rgb(161, 220, 243);
+    font-size: 18px !important;
+
+
+}
+#navDemo{
+    background-color: #00224e;
+    
+}
+#navDemo a{
+    font-size: 13px !important;
+    color:rgb(231, 200, 129);
+}
+
+.hero{
+    height: 650px;
+    background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-color: #d3d185; 
+
+    
+}
+.hero-description{
+    height: 650px;
+    background-color: rgba(2, 2, 56, 0.588);
+    display: flex;
+}
+.hero-text{
+    width:70% !important;
+    margin: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+.hero-text p{
+    color:white;
+    width: 50%;
+}
+.hero-title{
+     /* padding-top:80px; */
+     font-weight: 800;
+    text-transform: uppercase;
+    font-size: 80px;
+    color:orange;
+    
+    text-align: center;
+
+}
+.social{
+    width:100%;
+}
+.icons{
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+main{
+    width:80% !important;
+    margin: auto !important;
+}
+.title{
+    color:white;
+    font-weight: 600;
+    font-size: 40px;;
+    margin:50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+
+.game-logo img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}
+h3{
+    color:white;
+    text-align: center;
+}
+
+.games{
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:rgb(113, 158, 243); 
+
+    justify-content: space-evenly;
+}
+.game-list{
+    margin: 30px;;
+    padding: 20px;
+    height: 200px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid rgb(140, 176, 234);
+    background: rgb(16, 11, 66);
+    box-shadow: 0 8px 40px 0 rgb(251, 252, 255);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgb(15, 10, 83);
+}
+.game-list:hover{
+    transform: scale(1.05);
+}
+.store{
+    margin-top: 50px;
+}
+.game-store{
+    margin-top: 20px !important;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+}
+.game-image{
+    width:300px;
+    height: 180px;
+    
+}
+.game-image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.game-store-list{
+    width:300px;
+    height: 300px;
+     margin: 20px;
+    overflow: hidden;
+    border-top: none;
+    
+      -webkit-box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+              box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-bottom: 1px solid blueviolet;
+    color:white;
+     
+}
+.store-text-description{
+     
+padding-left:20px;
+display: flex;
+flex-direction: column;
+     
+} 
+h4{
+    color:white;
+    font-weight: 700;
+}
+.event-hero{
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(243, 215, 115, 0.971);
+    justify-content: space-evenly;
+    align-items: center;
+    padding:50px;
+    margin-top: 50px;
+    border:1px solid black;
+    border-radius: 10px;
+    
+}
+.event-text{
+    width:50%;
+    color: rgb(39, 58, 139);
+
+}
+.event-title{
+    font-size: 40px;
+    text-transform: uppercase;
+
+    font-weight: 600;
+    
+
+}
+.event-image{
+    width:400px;
+    height: 500px;
+}
+.event-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.event-text p{
+    color: white;
+}
+.contact{
+    
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contact-list{
+    margin-top: 15px !important;
+    color: white;
+}
+h5{
+    color:white;
+}
+span{
+    padding-right: 10px;
+}
+.contact-list p{
+}
+.email-contact{
+    width:80%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+
+/*General CSS and CSS reset*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
