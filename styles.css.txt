@@ -1,0 +1,32 @@
+
+/* Place your CSS styles in this file */
+
+body 
+{
+   background-color:powderblue ;
+   border : 5px solid steelblue (94,34,96,0.871) ;
+   border-radius :15px ;
+   margin-right: 1cm;
+   margin-left: 1cm;
+}
+
+ul {
+   list-style-type: none;
+   background-color: aliceblue;
+   border: 5px solid darkblue;
+   border-radius: 15px;
+}
+
+li {
+   display: inline;
+}
+
+h1 {
+   text-align: Center;
+   font-family: "Source Sans Pro", sans-serif;
+   font-weight: normal;
+}
+p {
+   text-align: justify;
+}
+
