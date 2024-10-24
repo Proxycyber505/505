@@ -1,0 +1,31 @@
+
+
+<!doctype html>
+
+<html>
+   <head>
+       <meta charset="utf-8">
+
+       <title>Blank template</title>
+
+       <!-- Load external CSS styles -->
+       <link rel="stylesheet" href="styles.css">
+
+   </head>
+
+   <body>
+       <ul>
+           <li> <a href= *DP.html*> Home </a> </li>
+           <li> <a href= *DP.html*> Design Process </a> </li>
+           <li> <a href= *DP.html*> Product </a> </li>
+       </ul>
+       <h1>?Waves of Wonders?</h1>
+       <marquee>Design by: Proxy505 </marquee>
+       <p>Welcome to Waves of Wonders! We are inviting you to explore the beauty of sea together with us. There are a lot of games we can play and also we can broaden our knowlege about the sea just by reading this website. Enjoy our website for a day filled with laughter, exploration, and endless fun as we uncover the secrets of the shore. So, let's dive in and discover the wonders of the sea together!</p>
+   
+       <!-- Load external JavaScript -->
+       <script src="scripts.js"></script>
+       
+   </body>
+
+</html>
